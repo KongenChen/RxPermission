@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/sunshinejr/RxPermission"
   s.license          = 'MIT'
   s.author           = { "Łukasz Mróz" => "thesunshinejr@gmail.com" }
-  s.source           = { :git => "https://github.com/sunshinejr/RxPermission.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/chenhuafeng/RxPermission.git" }
   s.social_media_url = 'https://twitter.com/thesunshinejr'
   s.platform     = :ios, '8.0'
   s.ios.deployment_target = '8.0'
