@@ -25,7 +25,7 @@ class ViewController: UIViewController {
             .subscribe(onNext: { status in
                 self.label.text = "Status: \(status)"
             })
-            .addDisposableTo(disposeBag)
+            .disposed(by: disposeBag)
     }
 }
 

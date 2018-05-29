@@ -1,2 +1,2 @@
-github "delba/Permission" "master"
-github "ReactiveX/RxSwift" ~> 3.0
+github "chenhuafeng/Permission" "master"
+github "ReactiveX/RxSwift" ~> 4.1.2
