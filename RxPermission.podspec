@@ -15,77 +15,77 @@ Pod::Spec.new do |s|
 
   s.subspec 'Core' do |ss|
     ss.source_files = 'Source/*.swift'    
-    ss.dependency 'Permission/Core', :git => "https://github.com/chenhuafeng/Permission.git"
+    ss.dependency 'Permission/Core'
     ss.dependency 'RxSwift'
   end
 
   s.subspec 'AddressBook' do |ss|
-    ss.dependency 'RxPermission/Core', :git => "https://github.com/chenhuafeng/RxPermission.git"
-    ss.dependency 'Permission/AddressBook', :git => "https://github.com/chenhuafeng/Permission.git"
+    ss.dependency 'RxPermission/Core'
+    ss.dependency 'Permission/AddressBook'
   end
 
   s.subspec 'Bluetooth' do |ss|
-    ss.dependency 'RxPermission/Core', :git => "https://github.com/chenhuafeng/RxPermission.git"
-    ss.dependency 'Permission/Bluetooth', :git => "https://github.com/chenhuafeng/Permission.git"
+    ss.dependency 'RxPermission/Core'
+    ss.dependency 'Permission/Bluetooth'
   end
 
   s.subspec 'Camera' do |ss|
-    ss.dependency 'RxPermission/Core', :git => "https://github.com/chenhuafeng/RxPermission.git"
-    ss.dependency 'Permission/Camera', :git => "https://github.com/chenhuafeng/Permission.git"
+    ss.dependency 'RxPermission/Core'
+    ss.dependency 'Permission/Camera'
   end
 
   s.subspec 'Contacts' do |ss|
-    ss.dependency 'RxPermission/Core', :git => "https://github.com/chenhuafeng/RxPermission.git"
-    ss.dependency 'Permission/Contacts', :git => "https://github.com/chenhuafeng/Permission.git"
+    ss.dependency 'RxPermission/Core'
+    ss.dependency 'Permission/Contacts'
   end
 
   s.subspec 'Events' do |ss|
-    ss.dependency 'RxPermission/Core', :git => "https://github.com/chenhuafeng/RxPermission.git"
-    ss.dependency 'Permission/Events', :git => "https://github.com/chenhuafeng/Permission.git"
+    ss.dependency 'RxPermission/Core'
+    ss.dependency 'Permission/Events'
   end
 
   s.subspec 'Location' do |ss|
-    ss.dependency 'RxPermission/Core', :git => "https://github.com/chenhuafeng/RxPermission.git"
-    ss.dependency 'Permission/Location', :git => "https://github.com/chenhuafeng/Permission.git"
+    ss.dependency 'RxPermission/Core'
+    ss.dependency 'Permission/Location'
   end
 
   s.subspec 'MediaLibrary' do |ss|
-    ss.dependency 'RxPermission/Core', :git => "https://github.com/chenhuafeng/RxPermission.git"
-    ss.dependency 'Permission/MediaLibrary', :git => "https://github.com/chenhuafeng/Permission.git"
+    ss.dependency 'RxPermission/Core'
+    ss.dependency 'Permission/MediaLibrary'
   end
 
   s.subspec 'Microphone' do |ss|
-    ss.dependency 'RxPermission/Core', :git => "https://github.com/chenhuafeng/RxPermission.git"
-    ss.dependency 'Permission/Microphone', :git => "https://github.com/chenhuafeng/Permission.git"
+    ss.dependency 'RxPermission/Core'
+    ss.dependency 'Permission/Microphone'
   end
 
   s.subspec 'Motion' do |ss|
-    ss.dependency 'RxPermission/Core', :git => "https://github.com/chenhuafeng/RxPermission.git"
-    ss.dependency 'Permission/Motion', :git => "https://github.com/chenhuafeng/Permission.git"
+    ss.dependency 'RxPermission/Core'
+    ss.dependency 'Permission/Motion'
   end
 
   s.subspec 'Notifications' do |ss|
-    ss.dependency 'RxPermission/Core', :git => "https://github.com/chenhuafeng/RxPermission.git"
-    ss.dependency 'Permission/Notifications', :git => "https://github.com/chenhuafeng/Permission.git"
+    ss.dependency 'RxPermission/Core'
+    ss.dependency 'Permission/Notifications'
   end
 
   s.subspec 'Photos' do |ss|
-    ss.dependency 'RxPermission/Core', :git => "https://github.com/chenhuafeng/RxPermission.git"
-    ss.dependency 'Permission/Photos', :git => "https://github.com/chenhuafeng/Permission.git"
+    ss.dependency 'RxPermission/Core'
+    ss.dependency 'Permission/Photos'
   end
 
   s.subspec 'Reminders' do |ss|
-    ss.dependency 'RxPermission/Core', :git => "https://github.com/chenhuafeng/RxPermission.git"
-    ss.dependency 'Permission/Reminders', :git => "https://github.com/chenhuafeng/Permission.git"
+    ss.dependency 'RxPermission/Core'
+    ss.dependency 'Permission/Reminders'
   end
 
   s.subspec 'Siri' do |ss|
-   ss.dependency 'RxPermission/Core', :git => "https://github.com/chenhuafeng/RxPermission.git"
-   ss.dependency 'Permission/Siri', :git => "https://github.com/chenhuafeng/Permission.git"
+   ss.dependency 'RxPermission/Core'
+   ss.dependency 'Permission/Siri'
   end
 
   s.subspec 'SpeechRecognizer' do |ss|
-    ss.dependency 'RxPermission/Core', :git => "https://github.com/chenhuafeng/RxPermission.git"
-    ss.dependency 'Permission/SpeechRecognizer', :git => "https://github.com/chenhuafeng/Permission.git"
+    ss.dependency 'RxPermission/Core'
+    ss.dependency 'Permission/SpeechRecognizer'
   end
 end
